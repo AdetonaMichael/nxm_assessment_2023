@@ -31,7 +31,7 @@
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img style="border-radius:25px;" src="{{asset('img/hero_image.png')}}" class="img-fluid animated" alt="">
+          <img style="border-radius:25px;" src="{{asset('img/hero_image.svg')}}" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>

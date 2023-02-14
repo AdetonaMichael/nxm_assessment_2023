@@ -19,8 +19,8 @@ return new class extends Migration
             $table->string('invoice_number')->nullable()->index('invoice_number_at_idx');
             $table->integer('purchaser_id')->nullable()->index('purchaser_id');
             $table->date('order_date')->nullable()->index('order_date_at_idx');
-
             $table->unique(['id'], 'id_at_idx');
+            $table->timestamps();
         });
     }
 

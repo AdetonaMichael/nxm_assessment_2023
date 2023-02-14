@@ -21,9 +21,9 @@ return new class extends Migration
             $table->string('username', 50)->nullable()->index('username_at_idx');
             $table->integer('referred_by')->nullable()->index('referred_by_at_idx');
             $table->date('enrolled_date')->nullable()->index('enrolled_date_at_idx');
-
             $table->unique(['id'], 'id_at_idx');
-            $table->primary(['id']);
+            $table->timestamps();
+            // $table->primary(['id']);
         });
     }
 
